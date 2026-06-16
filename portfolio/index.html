@@ -1,18 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinh Tran | Portfolio</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Vinh Tran</h1>
-    <p>Welcome to my portfolio website.</p>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>Link State Routing Simulator</li>
-        <li>Levenshtein Spell Checker</li>
-        <li>Network Client/Server Application</li>
-    </ul>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Vinh Tran</h1>
+        <h2>Computer Science Graduate | Software Developer</h2>
+
+        <p>
+            Passionate about software development, networking,
+            artificial intelligence, and building practical solutions
+            through programming.
+        </p>
+
+        <div>
+            <a href="#projects">View Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science graduate with experience in software
+            development, networking, algorithms, and artificial intelligence.
+            Through coursework and personal projects, I have developed
+            applications using C++, Python, Go, SQL, and web technologies.
+            I enjoy solving technical problems, learning new technologies,
+            and developing software that has a meaningful impact.
+        </p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p><strong>University:</strong> University of Colorado Denver</p>
+            <p><strong>Graduation:</strong> December 2025</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <h3>Programming Languages</h3>
+        <ul>
+            <li>C / C++</li>
+            <li>Python</li>
+            <li>Go</li>
+            <li>SQL</li>
+            <li>Scala</li>
+            <li>JavaScript</li>
+            <li>HTML / CSS</li>
+        </ul>
+
+        <h3>Technologies</h3>
+        <ul>
+            <li>Git & GitHub</li>
+            <li>Linux</li>
+            <li>Networking</li>
+            <li>TCP/UDP Sockets</li>
+            <li>Wireshark</li>
+            <li>Visual Studio Code</li>
+        </ul>
+    </section>
+
+   <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="experience-card">
+            <h3>Full Stack Software Engineer Intern</h3>
+            <p><strong>Company:</strong> Blue Marble Enterprise, Inc.</p>
+            <p><strong>Duration:</strong>  August 2024 – May 2025</p>
+            <p>
+                Built and deployed a full-stack web application with a 3-person team to collect and 
+                organize news articles via APIs based on user-defined keywords and specifications.
+                Developed the front end using React and Node.js and the backend with Django, 
+                ensuring a responsive, intuitive interface and efficient data handling. 
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Snake AI</h3>
+            <p>
+                Created an AI agent to play the classic Snake game using a neural network trained 
+                with reinforcement learning techniques.
+            </p>
+
+            <p><strong>Technologies:</strong> Python, TensorFlow</p>
+
+            <a href="https://github.com/vinh-tran03/SnakeAI" target="_blank">GitHub Repository</a>
+        </div>
+
+        <div class="project-card">
+            <h3>DinoJumping-Ardino</h3>
+            <p>
+                Developed a simple game on an Arduino where players control a dinosaur character
+                to jump over obstacles using a button input and display the score on an LCD screen.
+            </p>
+
+            <p><strong>Technologies:</strong> C, Arduino</p>
+
+            <a href="https://github.com/vinh-tran03/DinoJumping-Ardino" target="_blank">GitHub Repository</a>
+        </div>
+
+        <div class="project-card">
+            <h3>DIY Computer Build and Maintenance</h3>
+            <p>
+                Built a custom-built computer from scratch, including component selection,
+                assembly, and ongoing maintenance.
+            </p>
+            <p><strong>Technologies:</strong> Hardware, PC Building</p>
+        </div>
+
+        <div class="project-card">
+            <h3>ASL-Glove</h3>
+            <p>
+                Prototyped a glove-based system for recognizing American Sign Language
+                gestures using flex sensors, bluetooth communication, and displays the letters on a screen.
+            </p>
+
+            <p><strong>Technologies:</strong> C++, Python</p>
+
+            <a href="https://github.com/vinh-tran03/ASL-Glove" target="_blank">GitHub Repository</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: vinhtran2248@gmail.com</p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/vinh-tran03" target="_blank">
+                github.com/vinh-tran03
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/vinh-tran-03/" target="_blank">
+                linkedin.com/in/vinh-tran-03
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Vinh Tran. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
